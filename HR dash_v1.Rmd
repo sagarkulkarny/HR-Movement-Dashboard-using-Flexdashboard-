@@ -15,12 +15,9 @@ library(tidyverse)
 library(plotly)
 library(ggmap)
 
-devtools::install_github('rstudio/rmarkdown@3953abd473e9230faca4dcad996d5d1b35c3b3a7')
 
-#Use knitr root.dir instead of setwd to set directory
-#It is not working
-require(knitr)
-opts_knit$set(root.dir = "C:\\CTS Learning\\02_CDO - Certified Data Analyst\\HR dashboard project\\Regional files")
+#To clear a glitch in using icons
+devtools::install_github('rstudio/rmarkdown@3953abd473e9230faca4dcad996d5d1b35c3b3a7')
 
 #Reading regional files
 americas=read_excel("C:\\CTS Learning\\02_CDO - Certified Data Analyst\\HR dashboard project\\Regional files\\HR Dashboard_v1 - Americas.xlsx",sheet = "data")
