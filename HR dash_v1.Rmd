@@ -60,7 +60,15 @@ valueBox(value = exits,icon = "fa-user-times",caption = "Exits", color = "orange
 ```{r}
 newhires=global %>% filter(`Type of movement`=="Entry") %>% nrow()
 exits=global %>% filter(`Type of movement`=="Exit") %>% nrow()
-valueBox(value = (newhires-exits),icon = "fa-users",caption = "Net Change", color = "coral")
+
+netchange=(newhires-exits)
+
+#If loop to have either up-arrow or down-arrow icon on valuebox based on the value of netchange
+if(netchange>0){
+  valueBox(value = netchange,icon = "fa-arrow-up",caption = "Net Change", color = "coral")
+} else{
+valueBox(value = netchange,icon = "fa-arrow-down",caption = "Net Change", color = "coral")}
+
 ```
 
 
