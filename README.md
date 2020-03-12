@@ -1,11 +1,11 @@
 # HR-Movement-Dashboard
 A dashboard for HR planning managers
 
-![Dash page 1]("https://miro.medium.com/max/2732/1*WYoCD5vOFu6mRjBkXjDYTQ.png")
+![Dash page 1](https://miro.medium.com/max/2732/1*WYoCD5vOFu6mRjBkXjDYTQ.png)
 
-![Dash page 2]("https://miro.medium.com/max/2732/1*3Pz0TmNq_gpGVd2xqxfeIQ.png")
+![Dash page 2](https://miro.medium.com/max/2732/1*3Pz0TmNq_gpGVd2xqxfeIQ.png)
 
-![Dash page 3]("https://miro.medium.com/max/2732/1*AReJW67a_fhDHc8PdZne3w.png")
+![Dash page 3](https://miro.medium.com/max/2732/1*AReJW67a_fhDHc8PdZne3w.png)
 
 This is a proof of concept I've developed for a course project.
 
